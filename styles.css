@@ -76,6 +76,13 @@ header p {
 }
 
 /* 社交媒体链接样式 */
+.social-links {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-items: center;
+}
+
 .social-links a {
     margin: 0 10px;
     display: inline-block;
